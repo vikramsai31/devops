@@ -1,0 +1,11 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "VikramProject"
+    },
+    {
+        "ParameterKey": "PrivateSubnets",
+        "ParameterValue": "(subnet-087931d3434db5065,subnet-0ebef87d497a90f70)"
+
+    }
+]
