@@ -7,14 +7,14 @@ The below is built for aws solution using cloudformation templates. This built u
 3. `demoservers.json with custom parameters.`
 
 ## Usage
-### Usage cloudformation create stack
+###  Cloudformation create stack
 ```
 aws cloudformation create-stack --stack-name <stack name> --template-body outinfra.yml --parameters file://outinfra-params.json
 
 
 aws cloudformation create-stack --stack-name <stack name> --template-body demoservers.yml --parameters file://demoservers.json
 ```
-### Usage cloudformation update stack for re-runs
+### Cloudformation update stack for re-runs
 ```
 aws cloudformation update-stack --stack-name <stack name> --template-body outinfra.yml --parameters file://outinfra-params.json
 
