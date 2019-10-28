@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Script run') {
       steps {
-        sh 'mvn -v '
+        sh 'echo "Hello"'
       }
     }
   }
