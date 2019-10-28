@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Script run') {
       steps {
-        sh 'echo "Hello"'
+        sh 'aws s3 jenkins/starter-website.zip cp s3://test-webapp/'
       }
     }
   }
